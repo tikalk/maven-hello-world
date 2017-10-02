@@ -13,7 +13,40 @@ public class App
             try 
             {
                 int starWarsSequence = Integer.parseInt(args[0]);
-                System.out.println("Star Wars sequance: " + starWarsSequence);
+                String MovieName = "";
+                switch (starWarsSequence) 
+                {
+                     case 1:
+                        MovieName = "1";
+                        break;
+                     case 2:
+                        MovieName = "2";
+                        break;
+                     case 3:
+                        MovieName = "3";
+                        break;
+                     case 4:
+                        MovieName = "4";
+                        break;
+                     case 5:
+                        MovieName = "5";
+                        break;
+                     case 6:
+                        MovieName = "6";
+                        break;
+                     case 7:
+                        MovieName = "7";
+                        break;
+                }
+                if( MovieName == "" )
+                {
+                    System.err.println("There is still no Star Wars movie with sequence #" + starWarsSequence);
+                    System.exit(3);
+                }
+                else
+                {
+                    System.out.println("Star Wars movie #" + starWarsSequence + name is: "+ MovieName);
+                }
             }
             catch (NumberFormatException e) 
             {
