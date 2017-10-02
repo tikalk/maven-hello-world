@@ -45,7 +45,7 @@ public class App
                 }
                 else
                 {
-                    System.out.println("Star Wars movie #" + starWarsSequence + " name is: \033[1m;"+ MovieName);
+                    System.out.println("Star Wars movie #" + starWarsSequence + " name is: \u001B[1m"+ MovieName);
                 }
             }
             catch (NumberFormatException e) 
