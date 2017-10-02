@@ -13,7 +13,7 @@ public class App
             try 
             {
                 int starWarsSequence = Integer.parseInt(args[0]);
-                System.out.println("Star Wars sequance: " + starWarsSequence.toString());
+                System.out.println("Star Wars sequance: " + starWarsSequence);
             }
             catch (NumberFormatException e) 
             {
