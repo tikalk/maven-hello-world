@@ -17,25 +17,25 @@ public class App
                 switch (starWarsSequence) 
                 {
                      case 1:
-                        MovieName = "1";
+                        MovieName = "The Phantom Menace";
                         break;
                      case 2:
-                        MovieName = "2";
+                        MovieName = "Attack of the Clones";
                         break;
                      case 3:
-                        MovieName = "3";
+                        MovieName = "Revenge of the Sith";
                         break;
                      case 4:
-                        MovieName = "4";
+                        MovieName = "A New Hope";
                         break;
                      case 5:
-                        MovieName = "5";
+                        MovieName = "The Empire Strikes Back";
                         break;
                      case 6:
-                        MovieName = "6";
+                        MovieName = "Return of the Jedi";
                         break;
                      case 7:
-                        MovieName = "7";
+                        MovieName = "The Force Awakens";
                         break;
                 }
                 if( MovieName == "" )
